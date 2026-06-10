@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO: Meta Tags ===== -->
+  <title>Atelie das Tortas | Confeitaria Artesanal em Ananindeua, Pará</title>
+  <meta name="description" content="Confeitaria artesanal em Ananindeua (PA). Tortas de aniversário, bolos por encomenda, doces para festas e sobremesas especiais feitas com ingredientes selecionados. Faça seu pedido pelo WhatsApp!" />
+  <meta name="keywords" content="confeitaria Ananindeua, tortas Ananindeua, bolos por encomenda Ananindeua, doces para festas Ananindeua, confeitaria artesanal Ananindeua, tortas personalizadas Pará, bolo de aniversário Ananindeua" />
+  <meta name="author" content="Atelie das Tortas" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://atelie-das-tortas.com.br/" />
+
+  <!-- ===== Open Graph (Facebook / WhatsApp preview) ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Atelie das Tortas | Confeitaria Artesanal em Ananindeua" />
+  <meta property="og:description" content="Tortas, bolos e doces artesanais feitos com amor em Ananindeua, Pará. Encomendas personalizadas para todas as ocasiões." />
+  <meta property="og:url" content="https://atelie-das-tortas.com.br/" />
+  <meta property="og:image" content="https://placehold.co/1200x630/c4786a/fff?text=Atelie+das+Tortas" />
+  <!-- TODO: Substitua a imagem acima por uma foto real da confeitaria (1200x630px) -->
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Atelie das Tortas" />
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Atelie das Tortas | Confeitaria Artesanal em Ananindeua" />
+  <meta name="twitter:description" content="Tortas, bolos e doces artesanais feitos com amor em Ananindeua, Pará." />
+  <meta name="twitter:image" content="https://placehold.co/1200x630/c4786a/fff?text=Atelie+das+Tortas" />
+
+  <!-- ===== Google Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ===== Stylesheet ===== -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org Local Business structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Atelie das Tortas",
+    "description": "Confeitaria artesanal em Ananindeua, Pará. Tortas, bolos e doces para todas as ocasiões.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Passagem Bagam, nº 180",
+      "addressLocality": "Ananindeua",
+      "addressRegion": "PA",
+      "addressCountry": "BR"
+    },
+    "telephone": "+5591980404841",
+    "openingHours": "Mo-Su 07:00-17:00",
+    "url": "https://atelie-das-tortas.com.br/"
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ===========================
+       HEADER / NAVEGAÇÃO
+  ============================ -->
+  <header class="header" id="header" role="banner">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Atelie das Tortas – Voltar ao início">
+        <img src="logo.png" alt="Logo Ateliê das Tortas" class="logo__img">
+        <div class="logo__text">
+          <span class="logo__name">Atelie</span>
+          <span class="logo__sub">das Tortas</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav" role="navigation" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#sobre">Sobre</a></li>
+          <li><a class="nav__link" href="#produtos">Produtos</a></li>
+          <li><a class="nav__link" href="#diferenciais">Diferenciais</a></li>
+          <li><a class="nav__link" href="#galeria">Galeria</a></li>
+          <li><a class="nav__link" href="#localizacao">Localização</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a
+        href="https://wa.me/5591980404841?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda."
+        class="btn btn--whatsapp btn--sm header__cta"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Falar no WhatsApp"
+      >
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        WhatsApp
+      </a>
+
+      <!-- Botão hamburger para mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===========================
+         HERO SECTION
+    ============================ -->
+    <section class="hero" id="inicio" aria-label="Apresentação da confeitaria">
+      <!-- Decorações de fundo -->
+      <div class="hero__deco hero__deco--1" aria-hidden="true"></div>
+      <div class="hero__deco hero__deco--2" aria-hidden="true"></div>
+      <div class="hero__deco hero__deco--3" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow animate-up">✦ Confeitaria Artesanal em Ananindeua</p>
+          <h1 class="hero__title animate-up">
+            Cada torta é uma<br />
+            <em>obra de arte</em><br />
+            feita com amor
+          </h1>
+          <p class="hero__desc animate-up">
+            Ingredientes selecionados, receitas exclusivas e o carinho de quem transforma açúcar e farinha em momentos inesquecíveis. Sua encomenda personalizada a partir de 48h.
+          </p>
+          <div class="hero__actions animate-up">
+            <a
+              href="https://wa.me/5591980404841?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda."
+              class="btn btn--primary btn--lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              Fazer Encomenda pelo WhatsApp
+            </a>
+            <a href="#produtos" class="btn btn--outline btn--lg">Ver Produtos</a>
+          </div>
+          <div class="hero__stats animate-up">
+            <div class="stat">
+              <span class="stat__number">500+</span>
+              <span class="stat__label">Clientes satisfeitos</span>
+            </div>
+            <div class="stat__divider" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat__number">5★</span>
+              <span class="stat__label">Avaliação média</span>
+            </div>
+            <div class="stat__divider" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat__number">10+</span>
+              <span class="stat__label">Anos de tradição</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__image-wrap animate-right">
+          <!-- TODO: Substitua esta imagem por uma foto real da confeitaria (recomendado: 600x600px, foco nas tortas) -->
+          <img
+            <img
+  src="bolo principal.webp"
+  alt="Torta artesanal decorada da Ateliê das Tortas"
+  class="hero__img"
+  width="600"
+  height="600"
+  loading="eager"
+/>
+          <div class="hero__badge" aria-label="Pedidos aceitos">
+            <span class="hero__badge-icon" aria-hidden="true">🎀</span>
+            <span>Pedidos<br />personalizados</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <span class="scroll-indicator__line"></span>
+      </div>
+    </section>
+
+
+    <!-- ===========================
+         SOBRE NÓS
+    ============================ -->
+    <section class="section sobre" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container sobre__inner">
+
+        <div class="sobre__image-wrap reveal">
+          <!-- TODO: Substitua por uma foto real da confeitaria ou da confeiteira trabalhando -->
+          <img
+            src="confeitaria.webp"
+            alt="Atelie das Tortas, confeiteira artesanal preparando tortas na sua confeitaria em Ananindeua"
+            class="sobre__img"
+            width="540"
+            height="620"
+            loading="lazy"
+          />
+          <div class="sobre__img-deco" aria-hidden="true"></div>
+          <!-- Card flutuante -->
+          <div class="sobre__float-card" aria-label="Fundada há mais de 10 anos">
+            <span class="float-card__icon" aria-hidden="true">🏆</span>
+            <div>
+              <strong>+10 anos</strong>
+              <small>de tradição artesanal</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="sobre__content reveal">
+          <p class="section__eyebrow">Nossa História</p>
+          <h2 class="section__title" id="sobre-titulo">Feito com amor, do início ao fim</h2>
+          <p class="sobre__text">
+            A <strong>Atelie das Tortas</strong> nasceu do sonho simples e genuíno de oferecer confeitaria artesanal de verdade para as famílias de Ananindeua e região. Com mais de uma década de experiência, cada receita carrega o cuidado de quem aprendeu que os melhores ingredientes são a dedicação e o afeto.
+          </p>
+          <p class="sobre__text">
+            Trabalhamos exclusivamente com <strong>ingredientes selecionados</strong>, escolhidos a dedo para garantir que cada mordida seja uma experiência memorável. Nenhuma fórmula industrializada, nenhum atalho — apenas a produção artesanal que você merece.
+          </p>
+          <p class="sobre__text">
+            Nosso atendimento é <strong>100% personalizado</strong>: seu evento, seu gosto, sua história. Seja um aniversário íntimo ou uma celebração grandiosa, criamos a torta perfeita para o seu momento especial, com entrega na região e suporte direto pelo WhatsApp.
+          </p>
+
+          <ul class="sobre__valores" aria-label="Nossos valores">
+            <li class="valor-item">
+              <span class="valor-item__icon" aria-hidden="true">🌾</span>
+              <div>
+                <strong>Ingredientes naturais</strong>
+                <span>Selecionados com critério</span>
+              </div>
+            </li>
+            <li class="valor-item">
+              <span class="valor-item__icon" aria-hidden="true">👐</span>
+              <div>
+                <strong>100% artesanal</strong>
+                <span>Feito à mão com carinho</span>
+              </div>
+            </li>
+            <li class="valor-item">
+              <span class="valor-item__icon" aria-hidden="true">💬</span>
+              <div>
+                <strong>Atendimento personalizado</strong>
+                <span>Você no centro de tudo</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===========================
+         PRODUTOS
+    ============================ -->
+    <section class="section produtos" id="produtos" aria-labelledby="produtos-titulo">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__eyebrow">Cardápio</p>
+          <h2 class="section__title" id="produtos-titulo">Nossos Produtos</h2>
+          <p class="section__subtitle">Cada peça é criada sob encomenda, com o sabor e a apresentação que você imaginou.</p>
+        </div>
+
+        <div class="produtos__grid">
+
+          <!-- Card 1 -->
+          <article class="produto-card reveal" aria-label="Bolos Decorados">
+            <div class="produto-card__img-wrap">
+              <!-- TODO: Substitua por foto real de bolo decorado de aniversário -->
+              <img
+                src="bolo decorado.webp"
+                alt="Bolo decorado de aniversário com chantilly e frutas vermelhas, da Atelie das Tortas"
+                class="produto-card__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <span class="produto-card__badge">⭐ Mais pedido</span>
+            </div>
+            <div class="produto-card__body">
+              <h3 class="produto-card__title">Bolos Decorados</h3>
+              <p class="produto-card__desc">A estrela de toda festa! Recheios variados, decoração personalizada com flores, frutas ou o tema que você escolher.</p>
+              <a href="https://wa.me/5591980404841?text=Olá!%20Quero%20encomendar%20um%20Bolo%20Decorado%20de%20Anivers%C3%A1rio." class="btn btn--secondary btn--sm" target="_blank" rel="noopener noreferrer">Encomendar</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="produto-card reveal" aria-label="Bolos Personalizados">
+            <div class="produto-card__img-wrap">
+              <!-- TODO: Substitua por foto real de bolo personalizado -->
+              <img
+                src="nega maluca.jfif"
+                alt="Bolo personalizado decorado com tema especial, criado pela Atelie das Tortas em Ananindeua"
+                class="produto-card__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+            </div>
+            <div class="produto-card__body">
+              <h3 class="produto-card__title">Bolos Personalizados</h3>
+              <p class="produto-card__desc">Personagens, estilos, cores — a criatividade não tem limites. Contamos sua história em cada detalhe do bolo.</p>
+              <a href="https://wa.me/5591980404841?text=Olá!%20Quero%20encomendar%20um%20Bolo%20Personalizado." class="btn btn--secondary btn--sm" target="_blank" rel="noopener noreferrer">Encomendar</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="produto-card reveal" aria-label="Bolos Caseiros">
+            <div class="produto-card__img-wrap">
+              <!-- TODO: Substitua por foto real de bolo caseiro -->
+              <img
+                src="bolo caseiro.jfif"
+                alt="Bolo caseiro fofinho com cobertura de chocolate, feito artesanalmente pela Atelie das Tortas"
+                class="produto-card__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+            </div>
+            <div class="produto-card__body">
+              <h3 class="produto-card__title">Bolos Caseiros</h3>
+              <p class="produto-card__desc">O sabor da infância em cada fatia. Bolo de cenoura, chocolate, laranja, fubá e muito mais, com a receita de sempre.</p>
+              <a href="https://wa.me/5591980404841?text=Olá!%20Quero%20encomendar%20um%20Bolo%20Caseiro." class="btn btn--secondary btn--sm" target="_blank" rel="noopener noreferrer">Encomendar</a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="produto-card reveal" aria-label="Doces para Festas">
+            <div class="produto-card__img-wrap">
+              <!-- TODO: Substitua por foto real de doces para festa -->
+              <img
+                src="doce.jfif"
+                alt="Mesa de doces finos artesanais para festas e eventos, Atelie das Tortas em Ananindeua"
+                class="produto-card__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <span class="produto-card__badge produto-card__badge--brown">🎉 Festas</span>
+            </div>
+            <div class="produto-card__body">
+              <h3 class="produto-card__title">Doces para Festas</h3>
+              <p class="produto-card__desc">Brigadeiros gourmet, beijinhos, cajuzinhos, copinhos e muito mais. Deixe sua mesa de doces de cair o queixo.</p>
+              <a href="https://wa.me/5591980404841?text=Olá!%20Quero%20encomendar%20Doces%20para%20Festa." class="btn btn--secondary btn--sm" target="_blank" rel="noopener noreferrer">Encomendar</a>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="produto-card reveal" aria-label="Sobremesas Especiais">
+            <div class="produto-card__img-wrap">
+              <!-- TODO: Substitua por foto real de sobremesas especiais -->
+              <img
+                src="sobremesa.webp"
+                alt="Sobremesas especiais artesanais: pavê, mousse e pudim da Atelie das Tortas"
+                class="produto-card__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+            </div>
+            <div class="produto-card__body">
+              <h3 class="produto-card__title">Sobremesas Especiais</h3>
+              <p class="produto-card__desc">Pavês, mousses, pudins, cheesecakes e criações sazonais que surpreendem o paladar e encantam os olhos.</p>
+              <a href="https://wa.me/5591980404841?text=Olá!%20Quero%20encomendar%20uma%20Sobremesa%20Especial." class="btn btn--secondary btn--sm" target="_blank" rel="noopener noreferrer">Encomendar</a>
+            </div>
+          </article>
+
+          <!-- CTA Card -->
+          <article class="produto-card produto-card--cta reveal" aria-label="Encomenda especial">
+            <div class="produto-card__cta-inner">
+              <span class="produto-card__cta-icon" aria-hidden="true">💌</span>
+              <h3>Não encontrou o que procura?</h3>
+              <p>Criamos receitas exclusivas para o seu evento. Entre em contato e vamos criar juntos!</p>
+              <a href="https://wa.me/5591980404841?text=Olá!%20Tenho%20uma%20ideia%20especial%20de%20encomenda." class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===========================
+         DIFERENCIAIS
+    ============================ -->
+    <section class="section diferenciais" id="diferenciais" aria-labelledby="diferenciais-titulo">
+      <div class="diferenciais__bg" aria-hidden="true"></div>
+      <div class="container diferenciais__inner">
+
+        <div class="section__header section__header--light reveal">
+          <p class="section__eyebrow section__eyebrow--light">Por que nos escolher</p>
+          <h2 class="section__title section__title--light" id="diferenciais-titulo">Nossos Diferenciais</h2>
+          <p class="section__subtitle section__subtitle--light">Qualidade que você vê, sente e saboreia em cada encomenda.</p>
+        </div>
+
+        <div class="diferenciais__grid">
+
+          <div class="diferencial-card reveal">
+            <div class="diferencial-card__icon" aria-hidden="true">🌿</div>
+            <h3 class="diferencial-card__title">Ingredientes Selecionados</h3>
+            <p class="diferencial-card__desc">Utilizamos apenas ingredientes frescos e de alta qualidade, escolhidos com critério para garantir o melhor sabor e textura em cada produto.</p>
+          </div>
+
+          <div class="diferencial-card reveal">
+            <div class="diferencial-card__icon" aria-hidden="true">👐</div>
+            <h3 class="diferencial-card__title">Produção 100% Artesanal</h3>
+            <p class="diferencial-card__desc">Cada torta, bolo e docinho é produzido manualmente, com técnicas tradicionais e muito cuidado, sem processos industrializados.</p>
+          </div>
+
+          <div class="diferencial-card reveal">
+            <div class="diferencial-card__icon" aria-hidden="true">⚡</div>
+            <h3 class="diferencial-card__title">Atendimento Ágil</h3>
+            <p class="diferencial-card__desc">Respondemos rápido pelo WhatsApp, confirmamos pedidos em minutos e mantemos você informado em cada etapa da sua encomenda.</p>
+          </div>
+
+          <div class="diferencial-card reveal">
+            <div class="diferencial-card__icon" aria-hidden="true">🎨</div>
+            <h3 class="diferencial-card__title">Encomendas Personalizadas</h3>
+            <p class="diferencial-card__desc">Seu evento é único. Criamos decorações exclusivas, sabores sob medida e apresentações que refletem a sua personalidade.</p>
+          </div>
+
+          <div class="diferencial-card reveal">
+            <div class="diferencial-card__icon" aria-hidden="true">🚚</div>
+            <h3 class="diferencial-card__title">Entrega na Região</h3>
+            <p class="diferencial-card__desc">Realizamos entregas em Ananindeua e cidades próximas, com embalagens especiais para que seu pedido chegue perfeito.</p>
+          </div>
+
+          <div class="diferencial-card reveal">
+            <div class="diferencial-card__icon" aria-hidden="true">❤️</div>
+            <h3 class="diferencial-card__title">Feito com Amor</h3>
+            <p class="diferencial-card__desc">Cada encomenda é tratada como se fosse para a nossa própria família. O carinho e a dedicação estão em cada detalhe do que produzimos.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===========================
+         GALERIA
+    ============================ -->
+    <section class="section galeria" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__eyebrow">Inspirações</p>
+          <h2 class="section__title" id="galeria-titulo">Nossa Galeria</h2>
+          <p class="section__subtitle">Uma pequena amostra do que já criamos. Cada peça conta uma história.</p>
+        </div>
+
+        <div class="galeria__grid" role="list" aria-label="Galeria de produtos da Atelie das Tortas">
+
+          <!-- TODO: Substitua TODAS as imagens abaixo por fotos reais dos produtos -->
+
+          <div class="galeria__item galeria__item--tall reveal" role="listitem">
+            <img
+              src="oi.webp"
+              alt="Torta especial decorada com flores de chantilly, Atelie das Tortas Ananindeua"
+              class="galeria__img"
+              width="400"
+              height="600"
+              loading="lazy"
+            />
+            <div class="galeria__overlay">
+              <span>Torta Especial</span>
+            </div>
+          </div>
+
+          <div class="galeria__item reveal" role="listitem">
+            <img
+              src="brigadeiro.jfif"
+              alt="Bandeja de brigadeiros gourmet para festa, produzidos artesanalmente pela Atelie das Tortas"
+              class="galeria__img"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="galeria__overlay">
+              <span>Brigadeiros Gourmet</span>
+            </div>
+          </div>
+
+          <div class="galeria__item reveal" role="listitem">
+            <img
+              src="bolo seco.webp".
+              alt="Naked cake artesanal com frutas frescas, confeitaria Atelie das Tortas em Ananindeua"
+              class="galeria__img"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="galeria__overlay">
+              <span>Naked Cake</span>
+            </div>
+          </div>
+
+          <div class="galeria__item galeria__item--wide reveal" role="listitem">
+            <img
+              src="porra.jfif"
+              alt="Mesa de doces finos artesanais montada para evento em Ananindeua pela Atelie das Tortas"
+              class="galeria__img"
+              width="800"
+              height="400"
+              loading="lazy"
+            />
+            <div class="galeria__overlay">
+              <span>Mesa de Doces para Festa</span>
+            </div>
+          </div>
+
+          <div class="galeria__item reveal" role="listitem">
+            <img
+              src="taça.jfif"
+              alt="Torta personalizada temática criada sob encomenda pela Atelie das Tortas Ananindeua"
+              class="galeria__img"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="galeria__overlay">
+              <span>Torta Temática</span>
+            </div>
+          </div>
+
+          <div class="galeria__item reveal" role="listitem">
+            <img
+              src="azul.WEBP"
+              alt="Pavê especial artesanal em camadas, sobremesa da Atelie das Tortas em Ananindeua"
+              class="galeria__img"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="galeria__overlay">
+              <span>Pavê Especial</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="galeria__cta reveal">
+          <p>Quer ver mais? Siga-nos nas redes sociais ou entre em contato!</p>
+          <a
+            href="https://wa.me/5591980404841?text=Olá!%20Vi%20a%20galeria%20e%20quero%20fazer%20uma%20encomenda."
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Fazer Encomenda</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===========================
+         DEPOIMENTOS
+    ============================ -->
+    <section class="section depoimentos" id="depoimentos" aria-labelledby="depoimentos-titulo">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__eyebrow">Clientes</p>
+          <h2 class="section__title" id="depoimentos-titulo">O que dizem sobre nós</h2>
+        </div>
+
+        <div class="depoimentos__slider" id="depoimentosSlider" role="list" aria-label="Depoimentos de clientes">
+
+          <div class="depoimento-card reveal" role="listitem">
+            <div class="depoimento-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="depoimento-card__text">"A torta de aniversário da minha filha ficou simplesmente linda e deliciosa! Todos elogiaram muito. Com certeza vou pedir de novo!"</p>
+            <div class="depoimento-card__author">
+              <div class="depoimento-card__avatar" aria-hidden="true">M</div>
+              <div>
+                <strong>Maria Fernanda S.</strong>
+                <small>Ananindeua, PA</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="depoimento-card reveal" role="listitem">
+            <div class="depoimento-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="depoimento-card__text">"Encomendei doces para o chá de bebê e ficou perfeito! Atendimento super rápido pelo WhatsApp e tudo dentro do prazo. Recomendo!"</p>
+            <div class="depoimento-card__author">
+              <div class="depoimento-card__avatar" aria-hidden="true">A</div>
+              <div>
+                <strong>Ana Paula R.</strong>
+                <small>Belém, PA</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="depoimento-card reveal" role="listitem">
+            <div class="depoimento-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="depoimento-card__text">"Melhor confeitaria de Ananindeua! O bolo de chocolate é de outro mundo. Já é a terceira vez que peço e nunca decepcionou."</p>
+            <div class="depoimento-card__author">
+              <div class="depoimento-card__avatar" aria-hidden="true">J</div>
+              <div>
+                <strong>João Carlos M.</strong>
+                <small>Ananindeua, PA</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controles do slider -->
+        <div class="depoimentos__controls" aria-label="Navegação de depoimentos">
+          <button class="slider-btn" id="sliderPrev" aria-label="Depoimento anterior">&#8592;</button>
+          <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Indicadores de depoimento"></div>
+          <button class="slider-btn" id="sliderNext" aria-label="Próximo depoimento">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===========================
+         LOCALIZAÇÃO
+    ============================ -->
+    <section class="section localizacao" id="localizacao" aria-labelledby="localizacao-titulo">
+      <div class="container localizacao__inner">
+
+        <div class="localizacao__info reveal">
+          <p class="section__eyebrow">Onde estamos</p>
+          <h2 class="section__title" id="localizacao-titulo">Localização &amp; Horários</h2>
+
+          <ul class="localizacao__list" aria-label="Informações de contato e localização">
+            <li class="localizacao__item">
+              <span class="localizacao__icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>Endereço</strong>
+                <address>Passagem Bagam, nº 180<br />Ananindeua, Pará — Brasil</address>
+              </div>
+            </li>
+            <li class="localizacao__item">
+              <span class="localizacao__icon" aria-hidden="true">🕐</span>
+              <div>
+                <strong>Horário de Funcionamento</strong>
+                <span>Segunda a Domingo: <time datetime="07:00">07h00</time> às <time datetime="17:00">17h00</time></span>
+              </div>
+            </li>
+            <li class="localizacao__item">
+              <span class="localizacao__icon" aria-hidden="true">📱</span>
+              <div>
+                <strong>WhatsApp &amp; Telefone</strong>
+                <a href="tel:+5591980404841" class="localizacao__link">(91) 98040-4841</a>
+              </div>
+            </li>
+          </ul>
+
+          <a
+            href="https://wa.me/5591980404841?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda."
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            Falar pelo WhatsApp
+          </a>
+        </div>
+
+        <div class="localizacao__map reveal">
+          <!-- Mapa Google Maps incorporado — Passagem Bagam, Ananindeua/PA -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8158!2d-48.3708!3d-1.3605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMjEnMzguMiJTIDQ4wrAyMiIxNi4xIlc!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização da Atelie das Tortas — Passagem Bagam nº 180, Ananindeua, Pará"
+            aria-label="Mapa mostrando a localização da Atelie das Tortas em Ananindeua"
+          ></iframe>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===========================
+         CONTATO
+    ============================ -->
+    <section class="section contato" id="contato" aria-labelledby="contato-titulo">
+      <div class="container contato__inner">
+
+        <div class="section__header reveal">
+          <p class="section__eyebrow">Fale conosco</p>
+          <h2 class="section__title" id="contato-titulo">Entre em Contato</h2>
+          <p class="section__subtitle">Estamos prontos para tornar o seu momento ainda mais especial. Fale com a gente agora mesmo!</p>
+        </div>
+
+        <div class="contato__cards reveal">
+
+          <div class="contato-card contato-card--whatsapp">
+            <div class="contato-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            </div>
+            <h3 class="contato-card__title">WhatsApp</h3>
+            <p class="contato-card__info">(91) 98040-4841</p>
+            <a
+              href="https://wa.me/5591980404841?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda%20na%20Atelie%20das%20Tortas."
+              class="btn btn--primary btn--lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Chamar no WhatsApp</a>
+          </div>
+
+          <div class="contato-card">
+            <div class="contato-card__icon" aria-hidden="true">📍</div>
+            <h3 class="contato-card__title">Endereço</h3>
+            <address class="contato-card__info">
+              Passagem Bagam, nº 180<br />
+              Ananindeua — PA
+            </address>
+            <a href="https://maps.google.com/?q=Passagem+Bagam+180+Ananindeua+PA" class="btn btn--outline btn--sm" target="_blank" rel="noopener noreferrer">Ver no Mapa</a>
+          </div>
+
+          <div class="contato-card">
+            <div class="contato-card__icon" aria-hidden="true">🕐</div>
+            <h3 class="contato-card__title">Horário</h3>
+            <p class="contato-card__info">
+              Segunda a Domingo<br />
+              <strong><time datetime="07:00">07h00</time> às <time datetime="17:00">17h00</time></strong>
+            </p>
+            <p class="contato-card__note">Encomendas com 48h de antecedência</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ===========================
+       RODAPÉ
+  ============================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__top">
+      <div class="container footer__top-inner">
+
+        <div class="footer__brand">
+          <a href="#inicio" class="logo logo--light" aria-label="Atelie das Tortas – Voltar ao início">
+            <span class="logo__icon" aria-hidden="true">🎂</span>
+            <div class="logo__text">
+              <span class="logo__name">Atelie</span>
+              <span class="logo__sub">das Tortas</span>
+            </div>
+          </a>
+          <p class="footer__brand-desc">Confeitaria artesanal em Ananindeua, Pará. Feito com amor, ingredientes selecionados e muito carinho para tornar cada ocasião inesquecível.</p>
+          <!-- Redes sociais -->
+          <div class="footer__socials" aria-label="Redes sociais">
+            <a href="https://www.instagram.com/ateliedasstortas/" class="social-btn" aria-label="Instagram da Atelie das Tortas" rel="noopener" target="_blank">
+              <!-- Instagram icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/search/top?q=ateliedastortas%20sant%20card[]" class="social-btn" aria-label="Facebook da Atelie das Tortas" rel="noopener">
+              <!-- Facebook icon -->
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a
+              href="https://wa.me/5591980404841"
+              class="social-btn"
+              aria-label="WhatsApp da Atelie das Tortas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer__nav" aria-label="Menu do rodapé">
+          <h4 class="footer__nav-title">Links Rápidos</h4>
+          <ul class="footer__nav-list">
+            <li><a href="#sobre" class="footer__nav-link">Sobre Nós</a></li>
+            <li><a href="#produtos" class="footer__nav-link">Produtos</a></li>
+            <li><a href="#diferenciais" class="footer__nav-link">Diferenciais</a></li>
+            <li><a href="#galeria" class="footer__nav-link">Galeria</a></li>
+            <li><a href="#localizacao" class="footer__nav-link">Localização</a></li>
+            <li><a href="#contato" class="footer__nav-link">Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__contact" aria-label="Informações de contato">
+          <h4 class="footer__nav-title">Contato</h4>
+          <ul class="footer__contact-list">
+            <li>
+              <span aria-hidden="true">📱</span>
+              <a href="tel:+5591980404841" class="footer__nav-link">(91) 98040-4841</a>
+            </li>
+            <li>
+              <span aria-hidden="true">📍</span>
+              <address>Passagem Bagam, nº 180<br />Ananindeua – PA</address>
+            </li>
+            <li>
+              <span aria-hidden="true">🕐</span>
+              <span><time datetime="07:00">07h00</time> às <time datetime="17:00">17h00</time> — todos os dias</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p class="footer__copy">
+          &copy; <span id="anoAtual"></span> <strong>Atelie das Tortas</strong>. Todos os direitos reservados.
+        </p>
+        <p class="footer__copy footer__copy--right">
+          Confeitaria artesanal em Ananindeua, Pará, Brasil.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a
+    href="https://wa.me/5591980404841?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar pelo WhatsApp agora"
+    title="Falar pelo WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    <span class="whatsapp-float__pulse" aria-hidden="true"></span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
